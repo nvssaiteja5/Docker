@@ -76,9 +76,9 @@ In docker we performs actions on the docker  objects and those are
 * It will start the container if  either it is created or it is in stopped state
 
 
-`docker run <image-name>`
+`docker run <image-name>` (create+start =run)
 * It first creates the container from the image (First container search for the image in the hosts if it doesn't found ,then it will pull the image from the registry (If we don't specify the registry, then docker will consider docker hub as the default one))
-* create+start =run
+
 * It will create the container from the image and then it starts the container
 
 
