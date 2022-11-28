@@ -42,8 +42,9 @@ In docker we performs actions on the docker  objects and those are
 * Network
 * Volumes
 
+---
 
-#### Images
+## Images
  
 `docker images` or `docker image ls`
 * To view the number of docker images present
@@ -86,7 +87,7 @@ In docker we performs actions on the docker  objects and those are
 
 -----
 
-#### To remove a container
+### To remove a container
 * To remove the container, first we need to stop it .
 
 `docker container stop <container-name or id>`
