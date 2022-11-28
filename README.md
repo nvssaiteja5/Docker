@@ -102,7 +102,7 @@ In docker we performs actions on the docker  objects and those are
 -------
 #### To remove all containers
 
-* To remove all the containers First we need to stop all container
+* To remove all the containers.At first we  need to stop all containers  and then we can remove them.
 
 `docker container stop $(docker container ls -q)`
 * It will stop all the containers
